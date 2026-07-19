@@ -1,0 +1,13 @@
+{
+  "name": "audio-player",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A dependency-free HTML5 audio playlist player.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^28.1.0"
+  }
+}

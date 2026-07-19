@@ -1,0 +1,11 @@
+# Normalize text files across operating systems.
+* text=auto eol=lf
+
+# Keep binary assets byte-for-byte.
+*.eot binary
+*.jpg binary
+*.m4a binary
+*.mp3 binary
+*.otf binary
+*.ttf binary
+*.woff binary

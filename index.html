@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A compact playlist player built with the HTML5 Audio API.">
+    <title>Audio Player</title>
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+  </head>
+
+  <body class="index">
+    <main>
+      <section id="audio-player" class="audio-player-wrapper" aria-label="Audio player">
+        <div class="audio-player-image">
+          <span class="audio-player-song-name"></span>
+        </div>
+
+        <div class="audio-player-controls">
+          <span class="audio-player-progress" role="slider" tabindex="0"
+                aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <span class="audio-player-progress-bar"></span>
+          </span>
+          <span class="audio-player-button-wrappers">
+            <button type="button" class="audio-player-button small icon-backward" aria-label="Previous track"></button>
+            <button type="button" class="audio-player-button audio-player-place-pause-button icon-play" aria-label="Play or pause"></button>
+            <button type="button" class="audio-player-button small icon-forward" aria-label="Next track"></button>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <script src="javascripts/all.js"></script>
+  </body>
+</html>
